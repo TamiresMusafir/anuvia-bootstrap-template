@@ -63,6 +63,15 @@ a:hover {
   border-color: #EC5598;
 }
 
+.btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+  background-color: #EC5598;
+  border-color: #EC5598;
+}
+
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(236 85 182);
+}
+
 .btn-primary {
   color: #EC5598;
   background-color: white;
@@ -70,9 +79,18 @@ a:hover {
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #ffbad7;
-    border-color: #ffbad7;
+  color: #fff;
+  background-color: #ffbad7;
+  border-color: #ffbad7;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #ffbad7;
+  border-color: #ffbad7;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(236 85 182);
 }
 
 .btn-secondary {
@@ -83,6 +101,11 @@ a:hover {
 
 .btn-secondary:hover {
   color: white;
+  background-color: #ffbad7;
+  border-color: #ffbad7;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
   background-color: #ffbad7;
   border-color: #ffbad7;
 }
@@ -106,8 +129,8 @@ a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #EC5598 !important;
-    margin-right: 10px;
+  color: #EC5598 !important;
+  margin-right: 10px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -302,7 +325,7 @@ a:hover {
 /*Blog index section*/
 
 .blog-section {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .blog-section-title {
@@ -357,7 +380,8 @@ a:hover {
 /*Contact settings*/
 
 .contact-section {
-  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contact-section-title h2 {
@@ -427,6 +451,28 @@ a:hover {
   text-align: justify;
 }
 
+/*Team inside settings*/
+
+.team-inside-section {
+  padding-top: 30px;
+}
+
+.team-inside-photo {
+  padding-bottom: 30px;
+}
+
+.team-inside-info h2 {
+  font-weight: bold;
+  color: #EC5598;
+}
+
+.team-inside-info p {
+  text-align: justify;
+}
+
+.team-inside-contact {
+  margin-top: 20px;
+}
 
 /*Footer settings */
 
