@@ -195,7 +195,7 @@ a:hover {
 /*about settings */
 .about-section {
   text-align: justify;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -312,6 +312,10 @@ a:hover {
   font-weight: bold;
 }
 
+.card-services {
+  margin-top: 20px;
+}
+
 .services-content {
   background-color: white;
   color: black;
@@ -354,27 +358,6 @@ a:hover {
 
 .blog-subtitle {
   text-align: center;
-}
-
-/*choose settings */
-.choose-section {
-  text-align: justify;
-  margin-top: 70px;
-  margin-bottom: 40px;
-}
-
-.choose-photo {
-  padding-bottom: 30px;
-}
-
-.choose-info {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.choose-info h2 {
-  color: #EC5598;
-  font-weight: bold;
 }
 
 /*Contact settings*/
@@ -472,6 +455,19 @@ a:hover {
 
 .team-inside-contact {
   margin-top: 20px;
+}
+
+/*Appointment settings*/
+
+.appointment-section {
+  margin-top: 40px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.appointment-info h2 {
+  font-weight: bold;
+  color: #EC5598;
 }
 
 /*Footer settings */
