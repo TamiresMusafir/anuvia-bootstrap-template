@@ -1,0 +1,435 @@
+/*Backgrounds Settings*/
+
+.bg-light {
+  background-color: #fddef8!important;
+}
+
+.bg-dark {
+  background-color: #EC5598 !important;
+}
+
+/*Text Settings*/
+
+.text-primary {
+  color: #EC5598 !important;
+}
+
+a.text-primary:hover {
+  color: #ffbad7!important;
+}
+
+.text-secondary {
+  color: #fddef8 !important;
+}
+
+.text-muted {
+  color: white !important;
+}
+
+a {
+  color: #EC5598;
+}
+
+a:hover {
+  color: #ffbad7;
+  text-decoration: none;
+}
+
+
+.nav-link:hover {
+  color: #ffbad7 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffbad7;
+  background-color: #EC5598;
+}
+
+.dropdown-item {
+  font-weight: 400;
+  color: #EC5598;
+}
+
+/*Buttons Settings*/
+
+.btn-outline-primary {
+  color: #EC5598;
+  border-color: #EC5598;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #EC5598;
+  border-color: #EC5598;
+}
+
+.btn-primary {
+  color: #EC5598;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffbad7;
+    border-color: #ffbad7;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: #EC5598;
+  border-color: #EC5598;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #ffbad7;
+  border-color: #ffbad7;
+}
+
+.btn-read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*Navbar Settings*/
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+.navbar-collapse {
+  padding-left: 90px;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #EC5598 !important;
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(255,0,127,.9);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffbad7 !important;
+}
+
+.top-bar {
+  height: 40px;
+  background-color: #EC5598;
+  color: white;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.list-top-bar>li {
+  display: inline-block;
+  padding-right: 40px;
+}
+/*Carousel settings */
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Cor da sombra (aqui, 0.5 é a opacidade) */
+  z-index: 1; /* Para garantir que a sombra esteja acima da imagem */
+}
+
+.carousel-text {
+  position: absolute;
+  margin: auto;
+  left: 10%;
+  bottom: 40%;
+  z-index: 20;
+  color: #EC5598;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  transform: translateY(0);
+}
+
+.carousel-text h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.carousel-text h3 {
+  color: white;
+}
+
+.carousel-inner {
+  max-height: 700px; /* Defina a altura desejada aqui */
+  overflow: hidden; /* Para esconder o conteúdo extra se a altura for menor */
+}
+
+/*about settings */
+.about-section {
+  text-align: justify;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.about-photo {
+  padding-bottom: 30px;
+}
+
+.about-info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-info h2 {
+  color: #EC5598;
+  font-weight: bold;
+}
+
+/*Breadcrumbs settings*/
+
+.breadcrumb {
+  background-color: #EC5598;
+}
+
+.breadcrumb a {
+  color: white;
+}
+
+.breadcrumb a:hover {
+  color: black;
+}
+
+.breadcrumb-item.active {
+  color: black;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: black;
+}
+
+.top-info-bar {
+  background-color: #EC5598;
+}
+
+/*discounts settings*/
+
+.discounts-section {
+  background-color: #EC5598;
+  text-align: justify;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.discounts-info {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.discounts-info h2 {
+  font-weight: bold;
+}
+
+/*Team section*/
+
+.team-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.team-section-title h2 {
+  font-weight: bold;
+  color: #EC5598;
+}
+
+.team-subtitle {
+  text-align: center;
+  padding-bottom: 0.75rem;
+}
+
+.card-team{
+  width: 25% !important;
+  height: auto;
+  border: 0px solid rgba(0,0,0,.125) !important;
+  margin-bottom: 30px ;
+  text-align: center;
+}
+
+.fa-brands {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.table {
+  background-color: white;
+}
+
+/*services section*/
+
+.services-section {
+  background-color: #EC5598;
+  text-align: justify;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.services-section {
+  text-align: center;
+}
+
+.services-section-title h2 {
+  font-weight: bold;
+}
+
+.services-content {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.services-title {
+  font-weight: bold;
+}
+
+/*Blog index section*/
+
+.blog-section {
+  padding-top: 50px;
+}
+
+.blog-section-title {
+  text-align: center;
+}
+
+.blog-section-title h2 {
+  font-weight: bold;
+  color: #EC5598;
+}
+
+.card-blog {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.blog-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.blog-text {
+  text-align: justify;
+}
+
+.blog-subtitle {
+  text-align: center;
+}
+
+/*choose settings */
+.choose-section {
+  text-align: justify;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.choose-photo {
+  padding-bottom: 30px;
+}
+
+.choose-info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choose-info h2 {
+  color: #EC5598;
+  font-weight: bold;
+}
+
+/*Contact settings*/
+
+.contact-section {
+  padding-top: 50px;
+}
+
+.contact-section-title h2 {
+  text-align: center;
+  color: #EC5598;
+  font-weight: bold;
+}
+
+.maps-info {
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+.contact-info h4 {
+  color: #EC5598;
+  font-weight: bold;
+  color: #EC5598;
+}
+
+.form-group {
+  margin-bottom: 0rem
+}
+
+.form-control:focus {
+  border-color: #EC5598;
+  box-shadow: 0 0 0 0.2rem rgb(236 85 182);
+}
+
+.contact-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*Blog content settings*/
+
+.blog-inside-section {
+  margin-top: 40px;
+}
+
+.img-blog-inside {
+  width: 100%;
+}
+
+.blog-inside-title {
+  margin-top: 30px;
+}
+
+.blog-inside-title h1 {
+  text-align: left;
+  font-weight: bold;
+  color: #EC5598;
+  margin-bottom: 15px;
+}
+
+.blog-inside-title h4 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.blog-inside-body {
+  margin-top: 30px;
+}
+
+.blog-inside-body p {
+  text-align: justify;
+}
+
+
+/*Footer settings */
+
+.footer {
+  background-color: #EC5598;
+}
