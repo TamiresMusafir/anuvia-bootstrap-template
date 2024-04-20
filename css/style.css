@@ -23,7 +23,7 @@ a.text-primary:hover {
 }
 
 .text-muted {
-  color: white !important;
+  color: #e4e0d6 !important;
 }
 
 a {
@@ -472,6 +472,39 @@ a:hover {
 
 /*Footer settings */
 
-.footer {
+.footer-content {
   background-color: #EC5598;
+  color: white;
+}
+
+.footer h2 {
+  font-weight: bold;
+}
+
+.footer-info {
+  margin-bottom: 20px;
+}
+
+.footer-info h5 {
+  font-weight: bold;
+}
+
+.footer-legal-content {
+  padding: 5px;
+  background-color: #d84987;
+  color: white;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.social-links {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.social-links a {
+  font-size: 20px;
+  color: white;
 }
