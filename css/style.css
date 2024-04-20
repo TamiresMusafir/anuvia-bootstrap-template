@@ -199,8 +199,10 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.about-photo {
-  padding-bottom: 30px;
+@media only screen and (max-width: 990px) {
+  .about-photo {
+    padding-bottom: 30px;
+  }
 }
 
 .about-info {
@@ -477,34 +479,13 @@ a:hover {
   color: white;
 }
 
-.footer h2 {
-  font-weight: bold;
-}
-
-.footer-info {
-  margin-bottom: 20px;
-}
-
-.footer-info h5 {
-  font-weight: bold;
-}
-
-.footer-legal-content {
-  padding: 5px;
+.footer-legal {
   background-color: #d84987;
   color: white;
-}
-
-.copyright {
-  margin-top: 20px;
-}
-
-.social-links {
-  text-align: right;
-  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .social-links a {
-  font-size: 20px;
   color: white;
 }
