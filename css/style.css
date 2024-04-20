@@ -50,6 +50,26 @@ a:hover {
   color: #EC5598;
 }
 
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: #EC5598;
+  background-color: #EC5598;
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Remove a borda padrão de foco */
+  }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(void)!important;
+}
+
+
+.navbar-toggler-icon {
+  padding-top: 4px;
+}
+
+
 /*Buttons Settings*/
 
 .btn-outline-primary {
@@ -213,8 +233,20 @@ a:hover {
 }
 
 .carousel-inner {
-  max-height: 700px; /* Defina a altura desejada aqui */
-  overflow: hidden; /* Para esconder o conteúdo extra se a altura for menor */
+  max-height: 700px; 
+  overflow: hidden; 
+}
+
+@media (max-width: 768px) {
+  .carousel-text h3 {
+    font-size: 1.5em; 
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-text h1 {
+    font-size: 2.5em; 
+  }
 }
 
 /*about settings */
@@ -506,6 +538,12 @@ a:hover {
 
 .footer-content h2 {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-info {
+    padding-top: 10px;
+  }
 }
 
 .footer-content h5 {
