@@ -69,7 +69,7 @@ a:hover {
 }
 
 .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(236 85 182);
+    box-shadow: 0 0 0 0.2rem #ec5598;
 }
 
 .btn-primary {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(236 85 182);
+    box-shadow: 0 0 0 0.2rem #ffbad7;
 }
 
 .btn-secondary {
@@ -108,6 +108,26 @@ a:hover {
 .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
   background-color: #ffbad7;
   border-color: #ffbad7;
+}
+
+.btn-dark {
+  background-color: #FFBAD7;
+  border-color: #FFBAD7;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #d84987;
+  border-color: #d84987;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active, .show>.btn-dark.dropdown-toggle {
+  background-color: #d84987;
+  border-color: #d84987;
+}
+
+.btn-dark.focus, .btn-dark:focus {
+    box-shadow: 0 0 0 0.2rem #d84987;
 }
 
 .btn-read-more {
@@ -141,17 +161,22 @@ a:hover {
   color: #ffbad7 !important;
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #d84987 !important;
+}
+
 .top-bar {
   height: 40px;
   background-color: #EC5598;
   color: white;
   padding-left: 100px;
   padding-top: 10px;
+  text-align: right;
 }
 
 .list-top-bar>li {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 50px;
 }
 /*Carousel settings */
 
@@ -479,6 +504,14 @@ a:hover {
   color: white;
 }
 
+.footer-content h2 {
+  font-weight: bold;
+}
+
+.footer-content h5 {
+  font-weight: bold;
+}
+
 .footer-legal {
   background-color: #d84987;
   color: white;
@@ -488,4 +521,23 @@ a:hover {
 
 .social-links a {
   color: white;
+}
+
+.social-links a:hover {
+  color: #ffbad7;
+}
+
+/*Back to top button */
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+@media (max-width: 767.98px) {
+  #back-to-top-btn {
+    display: none; /* Ocultar em telas pequenas */
+  }
 }
