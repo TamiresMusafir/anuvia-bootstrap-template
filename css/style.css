@@ -189,15 +189,28 @@ a:hover {
   height: 40px;
   background-color: #EC5598;
   color: white;
-  padding-left: 100px;
   padding-top: 10px;
-  text-align: right;
 }
 
 .list-top-bar>li {
   display: inline-block;
-  padding-right: 40px;
 }
+
+.list-top-bar>li .fa-phone{
+  padding-right: 8px;
+}
+
+.list-top-bar>li .fa-envelope{
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+@media only screen and (max-width: 450px) {
+  .list-top-bar>li{
+    font-size: 13px ;
+  }
+}
+
 /*Carousel settings */
 
 .carousel-item::before {
@@ -237,7 +250,7 @@ a:hover {
   overflow: hidden; 
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .carousel-text h3 {
     font-size: 1.5em; 
   }
@@ -246,12 +259,21 @@ a:hover {
   }
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .carousel-text h3 {
     font-size: 1em; 
   }
   .carousel-text h1 {
     font-size: 2em; 
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .carousel-text h3 {
+    font-size: 15px; 
+  }
+  .carousel-text h1 {
+    font-size: 25px; 
   }
 }
 
