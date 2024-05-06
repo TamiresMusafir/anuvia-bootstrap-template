@@ -1,2 +1,3 @@
 # anuvia-template
-My first bootstrap template test. 
+This is my first bootstrap template test. 
+The file may be modified to correct some errors.
