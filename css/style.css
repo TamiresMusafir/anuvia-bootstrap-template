@@ -262,7 +262,7 @@ a:hover {
   margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
   .about-photo {
     padding-bottom: 30px;
   }
@@ -314,7 +314,6 @@ a:hover {
 }
 
 .discounts-info {
-  padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -324,6 +323,12 @@ a:hover {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 991px) {
+  .discounts-info {
+    padding-bottom: 30px;
+  }
+}
+  
 /*Team section*/
 
 .team-section{
@@ -535,6 +540,12 @@ a:hover {
   color: #EC5598;
 }
 
+@media only screen and (max-width: 991px) {
+  .appointment-info {
+    padding-bottom: 30px;
+  }
+}
+
 /*Footer settings */
 
 .footer-content {
@@ -546,7 +557,7 @@ a:hover {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
   .footer-info {
     padding-top: 10px;
   }
