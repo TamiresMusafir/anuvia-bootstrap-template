@@ -198,12 +198,6 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 575px) {
-  .top-bar-info {
-    padding-left: 20px;
-  }
-}
-
 /*Navbar settings*/
 
 .nav-link:hover {
