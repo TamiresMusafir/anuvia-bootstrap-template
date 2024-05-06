@@ -35,41 +35,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-.nav-link:hover {
-  color: #ffbad7 !important;
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-  color: #ffbad7;
-  background-color: #EC5598;
-}
-
-.dropdown-item {
-  font-weight: 400;
-  color: #EC5598;
-}
-
-.navbar-light .navbar-toggler {
-  color: white;
-  border-color: #EC5598;
-  background-color: #EC5598;
-}
-
-.navbar-toggler:focus {
-    outline: none; /* Remove a borda padrão de foco */
-  }
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url(void)!important;
-}
-
-
-.navbar-toggler-icon {
-  padding-top: 4px;
-}
-
-
 /*Buttons Settings*/
 
 .btn-outline-primary {
@@ -185,11 +150,21 @@ a:hover {
   color: #d84987 !important;
 }
 
+/*Topbar settings*/
+
 .top-bar {
   height: 40px;
   background-color: #EC5598;
   color: white;
   padding-top: 10px;
+}
+
+.top-bar-info {
+  padding-left: 0;
+}
+
+.list-top-bar {
+  padding: 0; 
 }
 
 .list-top-bar>li {
@@ -208,6 +183,65 @@ a:hover {
 @media only screen and (max-width: 450px) {
   .list-top-bar>li{
     font-size: 13px ;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .list-top-bar{
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .list-top-bar{
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .top-bar-info {
+    padding-left: 20px;
+  }
+}
+
+/*Navbar settings*/
+
+.nav-link:hover {
+  color: #ffbad7 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffbad7;
+  background-color: #EC5598;
+}
+
+.dropdown-item {
+  font-weight: 400;
+  color: #EC5598;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: #EC5598;
+  background-color: #EC5598;
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Remove a borda padrão de foco */
+  }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(void)!important;
+}
+
+
+.navbar-toggler-icon {
+  padding-top: 4px;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-item{
+    font-size: 10px;
   }
 }
 
@@ -259,7 +293,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 569px) {
   .carousel-text h3 {
     font-size: 1em; 
   }
@@ -270,10 +304,10 @@ a:hover {
 
 @media only screen and (max-width: 378px) {
   .carousel-text h3 {
-    font-size: 15px; 
+    font-size: 13px; 
   }
   .carousel-text h1 {
-    font-size: 25px; 
+    font-size: 23px; 
   }
 }
 
