@@ -241,11 +241,17 @@ a:hover {
   .carousel-text h3 {
     font-size: 1.5em; 
   }
-}
-
-@media (max-width: 768px) {
   .carousel-text h1 {
     font-size: 2.5em; 
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-text h3 {
+    font-size: 1em; 
+  }
+  .carousel-text h1 {
+    font-size: 2em; 
   }
 }
 
