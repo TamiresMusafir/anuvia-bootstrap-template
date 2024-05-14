@@ -531,6 +531,11 @@ a:hover {
   margin-top: 40px;
 }
 
+.blog-inside-content {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 .img-blog-inside {
   width: 100%;
 }
@@ -551,12 +556,47 @@ a:hover {
   text-align: left;
 }
 
+.blog-list ul {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.blog-list li {
+  list-style-type: none;
+}
+
+.blog-list ul li+li {
+  padding-left: 20px;
+}
+
+.blog-list i {
+  color: #EC5598;
+}
+
+.blog-list a {
+  padding-left: 5px;
+  color: #6c757d;
+}
+
 .blog-inside-body {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .blog-inside-body p {
   text-align: justify;
+}
+
+.blog-inside-comments {
+  margin-top: 40px;
+}
+
+.comments-count h3 {
+  font-weight: bold;
+}
+
+.comment-img img {
+  width: 60px;
 }
 
 /*Team inside settings*/
