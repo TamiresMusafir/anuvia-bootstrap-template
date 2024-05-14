@@ -639,11 +639,16 @@ a:hover {
 
 /*Back to top button */
 
+html {
+  scroll-behavior: smooth;
+}
+
 #back-to-top-btn {
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000;
+  z-index: 9999;
 }
 
 @media (max-width: 767.98px) {
