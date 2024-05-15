@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*Backgrounds Settings*/
 
 .bg-light {
@@ -271,7 +275,7 @@ a:hover {
 }
 
 .carousel-inner {
-  max-height: 700px; 
+  max-height: 800px; 
   overflow: hidden; 
 }
 
@@ -455,7 +459,7 @@ a:hover {
   font-weight: bold;
 }
 
-/*Blog index section*/
+/*Blog section*/
 
 .blog-section {
   padding-top: 40px;
@@ -493,47 +497,7 @@ a:hover {
   text-align: center;
 }
 
-/*Contact settings*/
-
-.contact-section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.contact-section-title h2 {
-  text-align: center;
-  color: #EC5598;
-  font-weight: bold;
-}
-
-.maps-info {
-  margin-bottom: 40px;
-}
-
-.contact-info {
-  margin-bottom: 20px;
-}
-.contact-info h4 {
-  color: #EC5598;
-  font-weight: bold;
-  color: #EC5598;
-}
-
-.form-group {
-  margin-bottom: 0rem
-}
-
-.form-control:focus {
-  border-color: #EC5598;
-  box-shadow: 0 0 0 0.2rem rgb(236 85 182);
-}
-
-.contact-button {
-  margin-top: 20px;
-  text-align: center;
-}
-
-/*Blog content settings*/
+/*Blog details settings*/
 
 .blog-details-section {
   margin-top: 40px;
@@ -595,6 +559,8 @@ a:hover {
   text-align: justify;
 }
 
+/*Comment settings */
+
 .comments-section {
   margin-top: 40px;
 }
@@ -604,7 +570,7 @@ a:hover {
 }
 
 .comment {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .comments-count h3 {
@@ -656,6 +622,46 @@ a:hover {
 .reply-form-section h3{
   font-weight: bold;
   color: #EC5598;
+}
+
+/*Contact settings*/
+
+.contact-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-section-title h2 {
+  text-align: center;
+  color: #EC5598;
+  font-weight: bold;
+}
+
+.maps-info {
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+.contact-info h4 {
+  color: #EC5598;
+  font-weight: bold;
+  color: #EC5598;
+}
+
+.form-group {
+  margin-bottom: 0rem
+}
+
+.form-control:focus {
+  border-color: #EC5598;
+  box-shadow: 0 0 0 0.2rem rgb(236 85 182);
+}
+
+.contact-button {
+  margin-top: 20px;
+  text-align: center;
 }
 
 /*Team inside settings*/
@@ -737,10 +743,6 @@ a:hover {
 }
 
 /*Back to top button */
-
-html {
-  scroll-behavior: smooth;
-}
 
 #back-to-top-btn {
   display: none;
