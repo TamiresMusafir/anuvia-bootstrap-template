@@ -595,7 +595,9 @@ a:hover {
   margin-top: 40px;
 }
 
-
+.comments-count {
+  color: #EC5598;
+}
 
 .comment {
   margin-top: 25px;
@@ -654,24 +656,24 @@ a:hover {
 
 /*Team inside settings*/
 
-.team-inside-section {
+.team-details-section {
   padding-top: 30px;
 }
 
-.team-inside-photo {
+.team-details-photo {
   padding-bottom: 30px;
 }
 
-.team-inside-info h2 {
+.team-details-info h2 {
   font-weight: bold;
   color: #EC5598;
 }
 
-.team-inside-info p {
+.team-details-info p {
   text-align: justify;
 }
 
-.team-inside-contact {
+.team-details-contact {
   margin-top: 20px;
 }
 
