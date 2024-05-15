@@ -738,6 +738,8 @@ html {
   bottom: 20px;
   right: 20px;
   z-index: 9999;
+  height: 45px; 
+  width: 45px;
 }
 
 @media (max-width: 767.98px) {
