@@ -82,6 +82,12 @@ a:hover {
     box-shadow: 0 0 0 0.2rem #ffbad7;
 }
 
+.btn-primary:focus {
+    background-color: #ffbad7;
+    border-color: #ffbad7;
+    box-shadow: 0 0 0 0.2rem #ffbad7;
+}
+
 .btn-secondary {
   color: white;
   background-color: #EC5598;
@@ -117,6 +123,11 @@ a:hover {
 
 .btn-dark.focus, .btn-dark:focus {
     box-shadow: 0 0 0 0.2rem #FFBAD7;
+}
+
+.btn-dark:focus {
+  background-color: #FFBAD7;
+  border-color: #FFBAD7;
 }
 
 .btn-read-more {
@@ -754,8 +765,34 @@ a:hover {
   width: 45px;
 }
 
-@media (max-width: 767.98px) {
-  #back-to-top-btn {
-    display: none; /* Ocultar em telas pequenas */
-  }
+/*Error-404 settings*/
+
+.error-section {
+  background-color: #EC5598;
+}
+
+.error-content {
+  background-color: white;
+}
+
+.error-content h1 {
+  color: #EC5598;
+  font-weight: bold;
+  font-size: 130px;
+}
+
+.error-content h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.error-content p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.error-buttons a {
+  margin-right: 5px;
+  margin-left: 5px;
 }
