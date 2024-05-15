@@ -54,7 +54,7 @@ a:hover {
 }
 
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 0.2rem #ec5598;
+  box-shadow: 0 0 0 0.2rem #ec5598;
 }
 
 .btn-primary {
@@ -96,23 +96,23 @@ a:hover {
 }
 
 .btn-dark {
-  background-color: #FFBAD7;
-  border-color: #FFBAD7;
+  background-color: #d84987;
+  border-color: #d84987;
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: #d84987;
-  border-color: #d84987;
+  background-color: #FFBAD7;
+  border-color: #FFBAD7;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .show>.btn-dark.dropdown-toggle {
-  background-color: #d84987;
-  border-color: #d84987;
+  background-color: #FFBAD7;
+  border-color: #FFBAD7;
 }
 
 .btn-dark.focus, .btn-dark:focus {
-    box-shadow: 0 0 0 0.2rem #d84987;
+    box-shadow: 0 0 0 0.2rem #FFBAD7;
 }
 
 .btn-read-more {
@@ -536,7 +536,7 @@ a:hover {
   border-radius: 10px;
 }
 
-.img-blog-inside {
+.blog-inside-img {
   width: 100%;
 }
 
@@ -587,16 +587,65 @@ a:hover {
   text-align: justify;
 }
 
-.blog-inside-comments {
+.comments-section {
   margin-top: 40px;
+}
+
+
+
+.comment {
+  margin-top: 25px;
 }
 
 .comments-count h3 {
   font-weight: bold;
 }
 
-.comment-img img {
-  width: 60px;
+.comments-img img {
+  width: 70px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.comment-content h5 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.comment-content a {
+  color: black;
+}
+
+.comment-content .reply {
+  color: #EC5598;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.comment-content i {
+  margin-right: 5px;
+}
+
+.comment-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.comment-reply {
+  padding-left: 40px;
+}
+
+.reply-form-section{
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.reply-form-section h3{
+  font-weight: bold;
+  color: #EC5598;
 }
 
 /*Team inside settings*/
