@@ -397,6 +397,10 @@ a:hover {
   color: #EC5598;
 }
 
+.team-title {
+  font-weight: bold;
+}
+
 .team-subtitle {
   text-align: center;
   padding-bottom: 0.75rem;
@@ -527,31 +531,31 @@ a:hover {
 
 /*Blog content settings*/
 
-.blog-inside-section {
+.blog-details-section {
   margin-top: 40px;
 }
 
-.blog-inside-content {
+.blog-details-content {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.blog-inside-img {
+.blog-details-img {
   width: 100%;
 }
 
-.blog-inside-title {
+.blog-details-title {
   margin-top: 30px;
 }
 
-.blog-inside-title h1 {
+.blog-details-title h1 {
   text-align: left;
   font-weight: bold;
   color: #EC5598;
   margin-bottom: 15px;
 }
 
-.blog-inside-title h4 {
+.blog-details-title h4 {
   font-weight: bold;
   text-align: left;
 }
@@ -579,11 +583,11 @@ a:hover {
   color: #6c757d;
 }
 
-.blog-inside-body {
+.blog-details-body {
   margin-top: 20px;
 }
 
-.blog-inside-body p {
+.blog-details-body p {
   text-align: justify;
 }
 
