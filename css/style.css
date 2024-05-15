@@ -475,6 +475,10 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.blog-content .card-body .blog-list li {
+  text-align: center;
+}
+
 .blog-title {
   text-align: center;
   font-weight: bold;
