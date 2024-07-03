@@ -7,7 +7,8 @@ html {
 :root {
   --main-dark: #EC5598;
   --main-light: #fddef8;
-  --main-strong: #d84987;
+  --main-lighter: #ffbad7;
+  --main-darker: #d84987;
 }
 
 /*Backgrounds Settings*/
@@ -27,7 +28,7 @@ html {
 }
 
 a.text-primary:hover {
-  color: var(--main-light)!important;
+  color: var(--main-lighter)!important;
 }
 
 .text-secondary {
@@ -43,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: var(--main-light);
+  color: var(--main-lighter);
   text-decoration: none;
 }
 
@@ -77,23 +78,23 @@ a:hover {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem var(--main-light);
+    box-shadow: 0 0 0 0.2rem var(--main-lighter);
 }
 
 .btn-primary:focus {
-    background-color: var(--main-light);
-    border-color: var(--main-light);
-    box-shadow: 0 0 0 0.2rem var(--main-light);
+    background-color: var(--main-lighter);
+    border-color: var(--main-lighter);
+    box-shadow: 0 0 0 0.2rem var(--main-lighter);
 }
 
 .btn-secondary {
@@ -104,38 +105,38 @@ a:hover {
 
 .btn-secondary:hover {
   color: white;
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-dark {
-  background-color: var(--main-strong);
-  border-color: var(--main-strong);
+  background-color: var(--main-darker);
+  border-color: var(--main-darker);
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .show>.btn-dark.dropdown-toggle {
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-dark.focus, .btn-dark:focus {
-    box-shadow: 0 0 0 0.2rem var(--main-light);
+    box-shadow: 0 0 0 0.2rem var(--main-lighter);
 }
 
 .btn-dark:focus {
-  background-color: var(--main-light);
-  border-color: var(--main-light);
+  background-color: var(--main-lighter);
+  border-color: var(--main-lighter);
 }
 
 .btn-read-more {
@@ -166,11 +167,11 @@ a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--main-light) !important;
+  color: var(--main-lighter) !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: var(--main-strong) !important;
+  color: var(--main-darker) !important;
 }
 
 /*Topbar settings*/
@@ -224,11 +225,11 @@ a:hover {
 /*Navbar settings*/
 
 .nav-link:hover {
-  color: var(--main-light) !important;
+  color: var(--main-lighter) !important;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: var(--main-light);
+  color: var(--main-lighter);
   background-color: var(--main-dark);
 }
 
@@ -747,7 +748,7 @@ a:hover {
 }
 
 .footer-legal {
-  background-color: var(--main-strong);
+  background-color: var(--main-darker);
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -758,7 +759,7 @@ a:hover {
 }
 
 .social-links a:hover {
-  color: var(--main-light);
+  color: var(--main-lighter);
 }
 
 /*Back to top button */
