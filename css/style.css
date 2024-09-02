@@ -346,6 +346,38 @@ a:hover {
   }
 }
 
+.carousel-control-prev, .carousel-control-next {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  background-color: var(--main-dark);
+  border: 2px solid var(--main-dark); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%); 
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: 20px; 
+}
+
+.carousel-control-next {
+  right: 20px;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 24px;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: var(--main-darker);
+  border: 2px solid var(--main-darker); 
+}
+
 /*about settings */
 .about-section {
   text-align: justify;
