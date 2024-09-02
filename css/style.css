@@ -213,6 +213,7 @@ a:hover {
 @media only screen and (min-width: 991px) {
   .list-top-bar{
     margin-left: auto;
+    float: right;
   }
 }
 
@@ -261,6 +262,17 @@ a:hover {
   .navbar-item{
     font-size: 10px;
   }
+}
+
+/*Breadcrumb settings*/
+
+.breadcrumb {
+  padding: 12px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 /*Carousel settings */
@@ -407,6 +419,11 @@ a:hover {
     padding-bottom: 30px;
   }
 }
+
+.discount-section .imagebox {
+  display: flex;
+  justify-content: flex-end; /* Alinha a imagem à direita */
+}
   
 /*Team section*/
 
@@ -494,13 +511,23 @@ a:hover {
   color: var(--main-dark);
 }
 
-.card-blog {
+.card-blog .card-body{
   padding-top: 20px;
   margin-bottom: 30px;
+  padding: 1.25rem;
 }
 
 .blog-content .card-body .blog-list li {
   text-align: center;
+  text-decoration: none;
+}
+
+.blog-list a {
+  text-decoration: none;
+}
+
+.card-body a {
+  text-decoration: none;
 }
 
 .blog-title {
@@ -610,6 +637,7 @@ a:hover {
 
 .comment-content a {
   color: black;
+  text-decoration: none;
 }
 
 .comment-content .reply {
@@ -629,6 +657,10 @@ a:hover {
 }
 
 .comment-reply {
+  padding-left: 40px;
+}
+
+.comment-reply-reply {
   padding-left: 40px;
 }
 
@@ -668,6 +700,11 @@ a:hover {
   color: var(--main-dark);
   font-weight: bold;
   color: var(--main-dark);
+}
+
+.contact-info a {
+  text-decoration: none;
+
 }
 
 .form-group {
