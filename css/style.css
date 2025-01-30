@@ -290,12 +290,12 @@ a:hover {
 .carousel-text {
   position: absolute;
   margin: auto;
-  bottom: 40%;
-  left: 10%;
-  right: 10%;
+  top: 50%;
+  left: 40%;
+  right: auto;
+  transform: translate(-50%, -50%);
   color: var(--main-dark);
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
-  transform: translateY(0);
 }
 
 .carousel-text h1 {
@@ -306,6 +306,10 @@ a:hover {
 
 .carousel-text h3 {
   color: white;
+}
+
+.carousel-button a {
+  text-shadow: none !important;
 }
 
 .carousel-inner {
@@ -328,6 +332,15 @@ a:hover {
   .carousel-text h1 {
     font-size: 2.5em; 
   }
+  .carousel-control-prev, .carousel-control-next {
+    width: 40px !important; /* Menor tamanho */
+    height: 40px !important; 
+  }
+
+  .carousel-control-prev i, .carousel-control-next i {
+    font-size: 20px !important; /* Menor tamanho do ícone */
+  }
+
 }
 
 @media only screen and (max-width: 569px) {
@@ -337,6 +350,17 @@ a:hover {
   .carousel-text h1 {
     font-size: 2em; 
   }
+  .carousel-button .btn {
+    font-size: 0.9em !important;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 30px !important; /* Menor tamanho */
+    height: 30px !important; 
+  }
+
+  .carousel-control-prev i, .carousel-control-next i {
+    font-size: 15px !important; /* Menor tamanho do ícone */
+  }
 }
 
 @media only screen and (max-width: 378px) {
@@ -345,6 +369,14 @@ a:hover {
   }
   .carousel-text h1 {
     font-size: 23px; 
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 27px !important; /* Menor tamanho */
+    height: 27px !important; 
+  }
+
+  .carousel-control-prev i, .carousel-control-next i {
+    font-size: 13px !important; /* Menor tamanho do ícone */
   }
 }
 
@@ -379,6 +411,7 @@ a:hover {
   background-color: var(--main-darker);
   border: 2px solid var(--main-darker); 
 }
+
 
 /*about settings */
 .about-section {
